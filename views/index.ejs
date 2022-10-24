@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>URL Shrinker</h1>
+      <h1 class="text-primary">URL Shrinker</h1>
       <form action="/shortUrls" method="POST" class="my-4 form-inline">
         <label for="fullUrl" class="sr-only">URL</label>
         <input
@@ -38,15 +38,15 @@
           </tr>
         </thead>
         <tbody>
+          <% shortUrls.forEach(shortUrl=>{ %>
           <tr>
             <td>
-              <a href="https://susmitadey.hashnode.dev/"
-                >https://susmitadey.hashnode.dev/</a
-              >
+              <a href="<%= shortUrl.full %>"><%= shortUrl.full %></a>
             </td>
-            <td><a href="/123456">123456</a></td>
-            <td>10</td>
+            <td><a href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
+            <td><%= shortUrl.clicks %></td>
           </tr>
+          <% }) %>
         </tbody>
       </table>
     </div>
