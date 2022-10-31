@@ -1,5 +1,5 @@
-# URL Shortener 
-URL Shortener is a full-stack MongoDB project where you can shorten long links. This tool is mostly used by content creators and also by developers. 
+# Shrinkly
+Shrinkly is a full-stack MongoDB project where you can shorten long links. This tool is mostly used by content creators and also by developers. 
 
 This is something similar to [bit.ly](https://bit.ly/). 
 
@@ -11,8 +11,8 @@ This is something similar to [bit.ly](https://bit.ly/).
 <!-- <table align="center">
 <tr>
 <td> -->
-<a href="https://github.com/Susmita-Dey/URL-Shortener/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Susmita-Dey/URL-Shortener" /> 
+<a href="https://github.com/Susmita-Dey/Shrinkly/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Susmita-Dey/Shrinkly" /> 
 </a>
 <!-- </td>
 </tr>
