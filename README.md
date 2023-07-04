@@ -3,6 +3,8 @@ Shrinkly is a full-stack MongoDB project where you can shorten long links. This 
 
 This is something similar to [bit.ly](https://bit.ly/). 
 
+**UI will be updated soon**
+
 ## Screenshot 📸
 
 ![image](https://user-images.githubusercontent.com/79099734/197540255-c5898acc-4fc1-45d0-bef3-8359eda1e7ed.png)
